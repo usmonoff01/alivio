@@ -1,0 +1,36 @@
+.footer {
+  height: 654px;
+  background-color: #245852;
+  border: 1px solid;
+  &__continer {
+    margin: 200px 800px;
+  }
+  &__text {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+    border: 1px solid red($color: #000000);
+    color: #ffffff;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  &__link {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+}
+li {
+  list-style: none;
+}

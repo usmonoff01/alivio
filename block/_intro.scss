@@ -1,0 +1,56 @@
+.intro {
+  &__continer {
+    height: 800px;
+    background-image: url(../img/intro_img.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    &__textt{
+        margin-left: 200px;
+    }
+  &__title {
+    width: 440px;
+    height: 148px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+
+    color: #01996d;
+  }
+  &__text {
+    width: 420px;
+    height: 123px;
+    margin: 20px 0;
+
+    /* Body 1 */
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #484848;
+  }
+  &__find {
+    /* btn-primary */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 30px;
+    width: 227px;
+    height: 65px;
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    color: #fff;
+  }
+}

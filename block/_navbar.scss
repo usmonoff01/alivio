@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+  &__btn{
+    display: flex;
+  }
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__link {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #292929;
+  }
+
+  &__sign {
+        box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 50px;
+    gap: 30px;
+
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #000000;
+  }
+  &__start {
+    /* btn-primary */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 50px;
+    gap: 30px;
+
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    color: #fff;
+  }
+}
